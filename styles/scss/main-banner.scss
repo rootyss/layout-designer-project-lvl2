@@ -1,0 +1,50 @@
+.main-banner {
+	height: 100vh;
+	background: url(../images/banner.png) no-repeat center center;
+	background-size: cover;
+}
+.input-in {
+	background: rgba(255, 255, 255, 0.1);
+	border: 2px solid rgba(255, 255, 255, 0.1);
+	box-sizing: border-box;
+}
+.main-btn {
+	width: 100%;
+	border: none;
+	background: $bg-banner-btn;
+	color: $color-text-light;
+	padding: 17px 0;
+}
+.input-in {
+	padding: 17px 0 17px 20px;
+	flex: 0 1 270px;
+	&::placeholder {
+		color: $color-text-light;
+	}	
+}
+.bg-catalog {
+	height: 545px;
+	background: url(../images/Morten_Harket.png)  no-repeat center center;
+}
+.fb1200 {
+	flex-basis: 1200px;
+}
+.button { 
+	box-sizing: border-box;
+	width: 200px;
+	height: 50px;
+}
+.link-img {
+	width: 20px;
+}
+
+.link-p {
+	padding: 0 15px;
+}
+.button-bg-mix {
+	background: $bg-color-mix;
+}
+
+.button-bg-bookmarks {
+	background: $bg-color-bookmarks;
+}

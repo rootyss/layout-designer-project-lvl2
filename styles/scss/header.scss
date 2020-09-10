@@ -1,0 +1,42 @@
+
+header {
+	position: absolute;
+	top: 14px;
+	left: 0; right: 0;
+}
+header .dark-link:hover {
+	color: $menu-text-color-active;
+}
+.logo-img {
+	width: 17px;
+	margin-right: 4px;
+}
+.logo-color {
+	color: $logo-text-color;
+}
+.search input {
+	background: $bg-color-search;
+	border-radius: 50px;
+	width: 100%;
+	padding: 3px 0 4px 15px;
+	border: none;
+	color: $color-text-light;
+	&::placeholder {
+		color: $menu-text-color
+	}
+}
+.search {
+	flex: 0 1 278px;
+}
+.logo {
+	flex: 1 1 auto;
+}
+.header-nav {
+	flex: 4 1 auto;
+}
+nav .li-item {
+	margin-right: 36px;
+	&:last-child {
+		margin-right: 0;
+	}
+}

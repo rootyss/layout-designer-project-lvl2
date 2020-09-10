@@ -1,0 +1,63 @@
+main {
+	background: $bg-color-main-content;
+	padding-bottom: 100px;
+}
+.sub {
+	box-sizing: border-box;
+	height: 580px;
+	max-width: 350px;
+	flex: 1 1 350px;
+	padding: 25px 24px 60px;
+}
+.bg-free {
+	background: url(../images/subscribe_1.png);
+	background-size: cover;
+}
+.bg-standart {
+	background: url(../images/subscribe_2.png);
+	background-size: cover;
+}
+.bg-preium {
+	background: url(../images/subscribe_3.png);
+	background-size: cover;
+}
+.mba {
+	margin: 0 0 auto 0;
+}
+.sub-btn {
+	border: 2px solid #fff;
+	width: 100%;
+	text-align: center;
+	padding: 21px 0;
+}
+.btn-album {
+	border: 1px solid $color-text-dark;
+	padding: 16px 30px;
+}
+.vert-bord {
+	height: 10px;
+	border: 1px solid #B8B8B8;
+	margin: 0 21px;
+}
+.btn-dl {
+	box-sizing: border-box;
+	background: $bg-color-dl;
+	padding: 17px 58px;
+	border-radius: 50px;
+}
+.img-song {
+	width: 55px;
+	margin-right: 17px;
+}
+.album-img {
+	width: 250px;
+}
+.popular-song {
+	width: 510px;
+}
+.name-song {
+	flex: 2 1 430px;
+}
+.h200 {
+	height: 250px;
+}
