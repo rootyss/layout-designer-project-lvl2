@@ -5,8 +5,7 @@ main {
 .sub {
 	box-sizing: border-box;
 	height: 580px;
-	max-width: 350px;
-	flex: 1 1 350px;
+	width: 350px;
 	padding: 25px 24px 60px;
 }
 .bg-free {
@@ -56,8 +55,8 @@ main {
 	width: 510px;
 }
 .name-song {
-	flex: 2 1 430px;
+	flex: 2 1 auto;
 }
-.h200 {
+.songs {
 	height: 250px;
 }

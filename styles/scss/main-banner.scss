@@ -26,12 +26,10 @@
 	height: 545px;
 	background: url(../images/Morten_Harket.png)  no-repeat center center;
 }
-.fb1200 {
-	flex-basis: 1200px;
-}
+
 .button { 
 	box-sizing: border-box;
-	width: 200px;
+	flex: 0 1 200px;
 	height: 50px;
 }
 .link-img {
@@ -47,4 +45,10 @@
 
 .button-bg-bookmarks {
 	background: $bg-color-bookmarks;
+}
+.cat-banner {
+	width: 1200px;
+}
+.mw100 {
+	width: 100%;
 }
