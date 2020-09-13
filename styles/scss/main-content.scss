@@ -3,7 +3,10 @@ main {
 	padding-bottom: 100px;
 }
 .sub {
+	display: flex;
+	flex-direction: column;
 	box-sizing: border-box;
+	align-items: center;
 	height: 580px;
 	width: 350px;
 	padding: 25px 24px 60px;

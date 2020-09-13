@@ -174,7 +174,6 @@ h1 {
 .button {
 	min-width: 200px;
 	flex: 1 1 auto;
-	margin-right: 0;
 }
 .cat-banner {
 	padding: 0;
@@ -198,3 +197,9 @@ section {
 	margin-right: 0;
 }
 }
+
+@media (max-width: 474px){
+
+.ad-m {
+	margin: 0 0 25px 0;
+	}}
