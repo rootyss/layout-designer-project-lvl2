@@ -9,7 +9,7 @@ main {
 	align-items: center;
 	height: 580px;
 	width: 350px;
-	padding: 25px 24px 60px;
+	padding: 25px 24px 50px;
 }
 .bg-free {
 	background: url(../images/subscribe_1.png);
@@ -56,10 +56,37 @@ main {
 }
 .popular-song {
 	width: 510px;
+	margin-bottom: 25px;
 }
 .name-song {
 	flex: 2 1 auto;
+	& p {
+		margin: 5px 0;
+	}
 }
 .songs {
 	height: 250px;
+}
+.container-album {
+	margin: 0 50px 40px 0;
+	& p {
+		margin: 0 0 10px;
+	}
+}
+.albums {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+.similars {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;	
+}
+.container-similars {
+	margin: 0 50px 50px 0;
+	& p {
+		margin: 5px 0;
+		text-align: center;
+	}
 }

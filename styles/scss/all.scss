@@ -14,12 +14,13 @@ h1 {
 	font-size: 60px;
 	font-weight: bold;
 	text-transform: uppercase;
+	margin: 0;
 }
 h2 {
 	font-size: 38px;
 	font-weight: bold;
 	text-transform: uppercase;
-	margin: 100px 0 50px 0;
+	margin: 75px 0 50px 0;
 }
 h3 {
 	font-size: 30px;
@@ -37,7 +38,7 @@ ul {
 li {
 	list-style-type: none;
 }
-.m0 {
+.m-x-auto {
 	margin: 0 auto;
 }
 .mt0 {
@@ -45,9 +46,6 @@ li {
 }
 .mb0 {
 	margin-bottom: 0;
-}
-.mb5 {
-	margin-bottom: 5px;
 }
 .mb10 {
 	margin-bottom: 10px;
@@ -58,17 +56,8 @@ li {
 		margin-bottom: 0;
 	}
 }
-.mb25 {
-	margin-bottom: 25px;
-	&:nth-child(3n) {
-		margin-bottom: 0;
-	}
-}
 .mb30 {
 	margin-bottom: 30px;
-}
-.mb35 {
-	margin-bottom: 35px;
 }
 .mb40 {
 	margin-bottom: 40px;
@@ -94,17 +83,11 @@ li {
 .ad-m {
 	margin-right: 35px;
 }
-.mr50 {
-	margin-right: 50px;
-}
 .mr68 {
 	margin-right: 68px;
 }
 .pt100 {
 	padding-top: 100px;
-}
-.my8 {
-	margin: 8px 0;
 }
 .w100 {
 	width: 100%;
@@ -156,11 +139,12 @@ li {
 }
 .container {
 	max-width: 1200px;
+	margin: 0 auto;
 }
 .d-flex {
 	display: flex;
 }
-.center {
+.flex-center {
 	justify-content: center;
 	align-items: center;
 }

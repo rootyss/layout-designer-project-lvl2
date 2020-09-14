@@ -1,10 +1,10 @@
 
-header {
+.site-header {
 	position: absolute;
 	top: 14px;
 	left: 0; right: 0;
 }
-header .dark-link:hover {
+.site-header .dark-link:hover {
 	color: $menu-text-color-active;
 }
 .logo-img {
@@ -34,7 +34,7 @@ header .dark-link:hover {
 .header-nav {
 	flex: 4 1 auto;
 }
-nav .li-item {
+nav li {
 	margin-right: 36px;
 	&:last-child {
 		margin-right: 0;
