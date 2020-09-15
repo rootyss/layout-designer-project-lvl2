@@ -10,21 +10,28 @@ main {
 	height: 580px;
 	width: 350px;
 	padding: 25px 24px 50px;
+	margin: 0 20px 30px 0;
 }
-.bg-free {
+.sub-name {
+	@include fluidFontSize(16px, 24px, 320px, 1920px);
+	text-transform: uppercase;
+	margin: 0 0 auto 0;
+}
+.text-info-sub {
+	@include fluidFontSize(12px, 22px, 320px, 1920px);
+	text-align: center;
+}
+.sub-bg-free {
 	background: url(../images/subscribe_1.png);
 	background-size: cover;
 }
-.bg-standart {
+.sub-bg-standart {
 	background: url(../images/subscribe_2.png);
 	background-size: cover;
 }
-.bg-preium {
+.sub-bg-preium {
 	background: url(../images/subscribe_3.png);
 	background-size: cover;
-}
-.mba {
-	margin: 0 0 auto 0;
 }
 .sub-btn {
 	border: 2px solid #fff;
@@ -34,19 +41,17 @@ main {
 }
 .btn-album {
 	border: 1px solid $color-text-dark;
-	padding: 16px 30px;
+}
+.btn-bg-dl {
+	background: $bg-color-dl;
+	border-radius: 50px;
 }
 .vert-bord {
 	height: 10px;
 	border: 1px solid #B8B8B8;
 	margin: 0 21px;
 }
-.btn-dl {
-	box-sizing: border-box;
-	background: $bg-color-dl;
-	padding: 17px 58px;
-	border-radius: 50px;
-}
+
 .img-song {
 	width: 55px;
 	margin-right: 17px;
@@ -89,4 +94,7 @@ main {
 		margin: 5px 0;
 		text-align: center;
 	}
+}
+.mob-img {
+	margin-right: 80px;
 }

@@ -3,6 +3,11 @@
 	position: absolute;
 	top: 14px;
 	left: 0; right: 0;
+	a {
+		font-size: 11px;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
 }
 .site-header .dark-link:hover {
 	color: $menu-text-color-active;
