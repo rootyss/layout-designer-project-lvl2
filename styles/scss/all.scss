@@ -40,9 +40,12 @@ li {
 	list-style-type: none;
 }
 .btn {
+	box-sizing: border-box;
 	border: none;
 	background: trasparent;
-	padding: 17px 50px
+	padding: 20px 50px;
+	border-radius: 5px;
+	color: $color-text-light;
 }
 
 .mt0 {

@@ -23,8 +23,7 @@
 .main-btn {
 	width: 100%;
 	background: $bg-banner-btn;
-	color: $color-text-light;
-	padding: 17px 0;
+	padding: 20px 0;
 }
 .input-in {
 	padding: 17px 0 17px 20px;
@@ -37,32 +36,28 @@
 	height: 545px;
 	background: url(../images/Morten_Harket.png)  no-repeat center center;
 }
-
-.button { 
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
-	flex: 0 1 200px;
-	height: 50px;
-}
 .link-svg {
 	width: 20px;
-	padding: 0 15px;
-	margin-right: 25px;
+	margin-right: 15px;
+	vertical-align: middle;
+}
+.btn-artists {
+	width: 200px;
+	text-transform: uppercase;
+	padding: 20px 0 20px 20px;
+	margin-right: 35px;
 	&:last-child {
 		margin-right: 0;
 	}
 }
-.button-bg-mix {
+.btn-mix {
 	background: $bg-color-mix;
 }
-.button-bg-bookmarks {
+.btn-bookmarks {
 	background: $bg-color-bookmarks;
+
 }
 .cat-banner {
 	width: 1200px;
 	margin: 0 auto 80px;
-}
-.mw100 {
-	width: 100%;
 }
