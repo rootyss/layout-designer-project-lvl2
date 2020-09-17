@@ -9,7 +9,7 @@
 .popular-song {
 	width: 450px;
 }
-.cat-banner {
+.art-banner {
 		padding-left: 50px;
 }
 .pt100-mob {
@@ -33,13 +33,12 @@
 	.container {
 		padding: 0 20px;
 	}
-	.mob-flex-center {
-		justify-content: center;
-		align-items: center;
-	}
-	.mm15 {
-		margin: 0 15px 15px 0;
-	}
+	.similars,
+.albums {
+	justify-content: center;
+	align-items: center;
+}
+
 	h2 {
 		font-size: 20px;
 	}
@@ -65,22 +64,12 @@
 	.mmb30 {
 		margin-bottom: 30px;
 	}
-
-	.mjc-sb {
-		justify-content: space-between;
-	}
 	.footer-elem {
 		margin-right: 0;
 	}
 	.popular-song {
 	width: 300px;
 }
-
-	.mr50{
-		margin-right: 0;
-	}
-
-
 }
 
 @media (max-width: 650px){
@@ -98,7 +87,7 @@ h2 {
 }
 }
 @media (max-width: 568px){
-.footer-menu-468 {
+.footer-mob-menu {
 	flex-direction: column;
 	align-items: flex-start;
 	& li {
@@ -108,6 +97,7 @@ h2 {
 		}
 	}
 }
+
 .btn-album {
 	display: block;
 	text-align: center;
@@ -128,7 +118,6 @@ h2 {
 .search {
 	order: 2;
 }
-
 .main-banner p {
 	text-align: center;
 }
@@ -149,30 +138,24 @@ h2 {
 .logo {
 	margin-bottom: 17px;
 }
-.cat-banner {
-	padding: 0;
-}
-section {
-	padding: 0 20px;
-}
-
-	.popular-song {
+.popular-song {
 	width: 250px;
-}
-.center-m {
-	justify-content: center;
-	align-items: center;
-}
-.mob-p0 {
-	padding: 0;
 }
 .sub {
 	height: 463px;
 	margin-right: 0;
 }
 .btn-artists {
-
 	width: 280px;
 	margin: 0 0 20px 0;
 }
+
+
+
+.container-album,
+.container-similars {
+	margin-right: 0;
+}
+
+
 }

@@ -1,4 +1,3 @@
-
 .site-header {
 	position: absolute;
 	top: 14px;
@@ -8,9 +7,6 @@
 		text-transform: uppercase;
 		font-weight: bold;
 	}
-}
-.site-header .dark-link:hover {
-	color: $menu-text-color-active;
 }
 .logo-img {
 	width: 17px;
@@ -38,6 +34,12 @@
 }
 .header-nav {
 	flex: 4 1 auto;
+	a {
+		color: $menu-text-color;
+		&:hover {
+	color: $menu-text-color-active;
+}
+	}
 }
 nav li {
 	margin-right: 36px;

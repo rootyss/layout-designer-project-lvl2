@@ -47,7 +47,6 @@ li {
 	border-radius: 5px;
 	color: $color-text-light;
 }
-
 .mt0 {
 	margin-top: 0;
 }
@@ -56,12 +55,6 @@ li {
 }
 .mb10 {
 	margin-bottom: 10px;
-}
-.mb20 {
-	margin-bottom: 20px;
-		&:last-child {
-		margin-bottom: 0;
-	}
 }
 .mb30 {
 	margin-bottom: 30px;
@@ -77,9 +70,6 @@ li {
 }
 .mb70 {
 	margin-bottom: 70px;
-}
-.mb80 {
-	margin-bottom: 80px;
 }
 .mr10 {
 	margin-right: 10px;
@@ -105,9 +95,6 @@ li {
 .fz20 {
 	font-size: 20px;
 }
-.fz24 {
-	font-size: 24px;
-}
 .fz30 {
 	font-size: 30px;
 }
@@ -123,9 +110,6 @@ li {
 .text-c {
 	text-align: center;
 }
-.fwb {
-	font-weight: bold;
-}
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
@@ -136,12 +120,6 @@ li {
 .flex-center {
 	justify-content: center;
 	align-items: center;
-}
-.dark-link {
-	color: $menu-text-color;
-}
-.light-link {
-	color: $color-text-light;
 }
 .text-dark {
 	color: $color-text-dark;
@@ -172,9 +150,6 @@ li {
 }
 .ai-fs {
 	align-items: flex-start;
-}
-.jc-fe {
-	justify-content: flex-end;
 }
 .mw560 {
 	max-width: 560px;

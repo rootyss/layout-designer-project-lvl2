@@ -24,6 +24,8 @@
 	width: 100%;
 	background: $bg-banner-btn;
 	padding: 20px 0;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 .input-in {
 	padding: 17px 0 17px 20px;
@@ -57,7 +59,8 @@
 	background: $bg-color-bookmarks;
 
 }
-.cat-banner {
+.art-banner {
 	width: 1200px;
 	margin: 0 auto 80px;
+	justify-content: flex-end;
 }

@@ -54,7 +54,6 @@ main {
 	border: 1px solid #B8B8B8;
 	margin: 0 21px;
 }
-
 .img-song {
 	width: 55px;
 	margin-right: 17px;
@@ -79,6 +78,9 @@ main {
 	margin: 0 50px 40px 0;
 	& p {
 		margin: 0 0 10px;
+	}
+	& svg {
+		width: 20px;
 	}
 }
 .albums {
