@@ -1,3 +1,7 @@
 layout-designer-project-lvl2
-http://stingy-plot.surge.sh/
+Корректная версия:
 rootyss.github.io
+
+
+Не обновился:
+http://stingy-plot.surge.sh/
