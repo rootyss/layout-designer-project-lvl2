@@ -12,11 +12,10 @@
 .art-banner {
 		padding-left: 50px;
 }
-.pt100-mob {
-	padding-top: 100px;
+.mob-mr68 {
+	margin-right: 68px;
 }
 }
-
 
 @media (max-width: 1023px) {
 	.container, .cat-banner {
@@ -26,30 +25,26 @@
 		width: 280px;
 		height: 463px;
 	}
-	.mob-img {
-		width: 280px;
-		margin-right: 0;
-	}
 	.container {
-		padding: 0 20px;
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 	.similars,
 .albums {
 	justify-content: center;
 	align-items: center;
 }
-
-	h2 {
-		font-size: 20px;
-	}
 	h3 {
 		margin: 10px 0 20px;
+		text-align: center;
 	}
 	.mob-m-y-50 {
 		margin: 50px 0;
 	}
-	.mob-news-img {
+	.mob-img {
+		display: block;
 		width: 280px;
+		margin: 0 auto;
 	}
 	.mob-fd-c {
 		flex-direction: column;
@@ -61,7 +56,7 @@
 	.order-2 {
 		order: 2;
 	}
-	.mmb30 {
+	.mob-mb30 {
 		margin-bottom: 30px;
 	}
 	.footer-elem {
@@ -71,6 +66,15 @@
 	width: 300px;
 }
 }
+@media (max-width: 768px) {
+	.mob-flex-center {
+	justify-content: center;
+}
+.footer-elem {
+	margin-right: 20px;
+}
+}
+
 
 @media (max-width: 650px){
 .songs {
@@ -80,6 +84,14 @@
 h2 {
 	text-align: center;
 }
+
+.container-album,
+.container-similars {
+	&:nth-child(2n){
+	margin-right: 0;
+	}
+}
+
 }
 @media (max-width: 600px){
 .input-in{
@@ -149,13 +161,11 @@ h2 {
 	width: 280px;
 	margin: 0 0 20px 0;
 }
-
-
-
 .container-album,
 .container-similars {
 	margin-right: 0;
 }
+
 
 
 }
