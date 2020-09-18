@@ -1,4 +1,4 @@
-layout-designer-project-lvl2 \n
+layout-designer-project-lvl2
 Корректная версия:
 rootyss.github.io
 
