@@ -1,4 +1,5 @@
 .news {
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
 }
@@ -8,6 +9,13 @@
 }
 .news p{
 	margin: 10px 0;
+}
+.news-descr {
+	display: block;
+	margin: 5px 0;
+}
+.news-img {
+	width: 560px;
 }
 .color-author {
 	color: $color-author;

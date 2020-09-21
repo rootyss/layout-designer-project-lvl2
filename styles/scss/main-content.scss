@@ -2,12 +2,20 @@ main {
 	background: $bg-color-main-content;
 	padding-bottom: 100px;
 }
-
+.subs {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-bottom: 50px;
+}
+.text-info-subs {
+	text-align: center;
+}
 .btn-dl {
 	background: $bg-color-dl;
 	border-radius: 50px;
 }
-
 .albums {
 	display: flex;
 	justify-content: flex-start;
@@ -18,4 +26,11 @@ main {
 	justify-content: flex-start;
 	flex-wrap: wrap;	
 }
-
+.news-margin {
+	margin-bottom: 70px;
+}
+.info-app {
+	display: flex;
+	justify-content: space-between;	
+	width: 100%;
+}
