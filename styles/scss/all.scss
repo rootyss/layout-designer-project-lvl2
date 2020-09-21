@@ -10,28 +10,18 @@ a {
 	text-decoration: none;
 }
 h1 {
+	font-size: 60px;
 	margin-top: 0;
 	font-weight: bold;
 	text-transform: uppercase;
 	text-align: center;
 	margin: 0;
-	@include fluidFontSize(30px, 60px, 320px, 1920px);
 }
 h2 {
-	@include fluidFontSize(20px, 38px, 320px, 1920px);
+	font-size: 38px;
 	font-weight: bold;
 	text-transform: uppercase;
 	margin: 75px 0 50px 0;
-}
-h3 {
-	font-size: 30px;
-	font-weight: 300;
-}
-h4 {
-	margin: 30px auto;
-	font-size: 18px;
-	font-weight: 700;
-	color: $color-text-footer;
 }
 ul {
 	padding-left: 0;
@@ -46,6 +36,12 @@ li {
 	padding: 20px 50px;
 	border-radius: 5px;
 	color: $color-text-light;
+}
+.p-y-20 {
+	padding: 20px 0;
+}
+.p-y-50 {
+	padding: 50px 0;
 }
 .mt0 {
 	margin-top: 0;
@@ -65,50 +61,23 @@ li {
 .mb45 {
 	margin-bottom: 45px;
 }
-.mb50 {
-	margin-bottom: 50px;
-}
 .mb70 {
 	margin-bottom: 70px;
 }
-.mr10 {
-	margin-right: 10px;
-}
-.mr20 {
-	margin-right: 20px;
+.mr35 {
+	margin-right: 35px;
 }
 .pt100 {
 	padding-top: 100px;
 }
+.margin-r-b {
+	margin: 0 50px 40px 0;
+}
 .w100 {
 	width: 100%;
 }
-.fz11 {
-	font-size: 11px;
-}
-.fz12 {
-	font-size: 12px;
-}
 .fz16 {
 	font-size: 16px;
-}
-.fz20 {
-	font-size: 20px;
-}
-.fz30 {
-	font-size: 30px;
-}
-.fz60 {
-	font-size: 60px;
-}
-.lh-1 {
-	line-height: 1;
-}
-.text-up {
-	text-transform: uppercase;
-}
-.text-c {
-	text-align: center;
 }
 .container {
 	max-width: 1200px;
@@ -127,38 +96,25 @@ li {
 .text-gray {
 	color: $color-release;
 }
-.color-author {
-	color: $color-author;
-}
-.color-artist {
-	color: $text-color-name-artists;
-}
-.jc-sb {
+
+.justify-content-between {
 	justify-content: space-between;
 }
-.jc-sa {
-	justify-content: space-around;
-}
-.jc-fs {
+.justify-content-start {
 	justify-content: flex-start;
 }
-.fd-c {
+.flex-column {
 	flex-direction: column;
 }
 .fw-w {
 	flex-wrap: wrap;
 }
-.ai-fs {
+.align-items-start {
 	align-items: flex-start;
 }
 .mw560 {
 	max-width: 560px;
 }
-.pos-abs {
-	position: absolute;
-	left: 15px;
-	bottom: 13px;
-}
-.pos-rel {
-	position: relative;
+.album-img {
+	width: 250px;
 }
