@@ -10,6 +10,7 @@
 	font-weight: bold;
 }
 .banner-text-motiv {
+	text-align: center;
 	font-size: 18px;
 	font-weight: bold;
 }
@@ -37,7 +38,7 @@
 	background: url(../images/Morten_Harket.png)  no-repeat center center;
 }
 .link-svg {
-	width: 20px;
+	width: 22px;
 	margin-right: 15px;
 	vertical-align: middle;
 }
@@ -45,6 +46,7 @@
 	width: 200px;
 	padding: 20px 0 20px 20px;
 }
+
 .btn-mix {
 	text-transform: uppercase;
 	background: $bg-color-mix;
@@ -55,7 +57,9 @@
 
 }
 .art-banner {
-	width: 1200px;
 	margin: 0 auto 80px;
 	justify-content: flex-end;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
 }

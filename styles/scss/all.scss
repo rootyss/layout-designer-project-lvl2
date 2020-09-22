@@ -49,9 +49,6 @@ li {
 .mb0 {
 	margin-bottom: 0;
 }
-.mb10 {
-	margin-bottom: 10px;
-}
 .mb30 {
 	margin-bottom: 30px;
 }
@@ -61,7 +58,7 @@ li {
 .mb45 {
 	margin-bottom: 45px;
 }
-.mr35 {
+.btn-margin {
 	margin-right: 35px;
 }
 .pt100 {
@@ -77,7 +74,7 @@ li {
 	font-size: 16px;
 }
 .container {
-	max-width: 1200px;
+	width: 1200px;
 	margin: 0 auto;
 }
 .d-flex {
@@ -113,5 +110,5 @@ li {
 	max-width: 560px;
 }
 .album-img {
-	width: 250px;
+	width: 100%;
 }

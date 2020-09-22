@@ -9,11 +9,11 @@
 <body>
 	<header class="header">
 		<div class="container d-flex flex-center justify-content-between fw-w">
-			<div class="logo d-flex flex-center justify-content-start">
+			<div class="logo d-flex flex-center justify-content-start mob-order-1">
 				<img class="logo-img" src="images/logo.svg" alt="Лого Music Box">
-				<a href="index.html" class="logo-color">music box</a>
+				<a href="#" class="logo-color">music box</a>
 			</div>
-			<nav class="nav">
+			<nav class="nav mob-order-3">
 			<ul>
 				<li><a class="header-menu-color" href="index.html">Главная</a></li>
 				<li><a class="header-menu-color" href="#">Каталог</a></li>
@@ -21,15 +21,15 @@
 				<li><a class="header-menu-color" href="#">Контакты</a></li>
 			</ul>
 		</nav>
-		<div class="search"><input type="search" placeholder="поиск..."></div>
+		<div class="search mob-order-2"><input type="search" placeholder="поиск..."></div>
 		</div>
 	</header>
 <section class="main-banner d-flex bg-catalog">
-	<div class="container art-banner d-flex flex-column align-items-start">
+	<div class="container art-banner">
 		<h1 class="mb0">Morten Harket</h1>
 		<p class="mb30">24 875 поклонников</p>
 		<div class="d-flex fw-w">
-			<a class="btn btn-artists btn-mix mr35" href="#">
+			<a class="btn btn-artists btn-mix btn-margin" href="#">
 					<svg class="link-svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
 		<g>
@@ -52,7 +52,7 @@
 <main>
 	<section class="container pt100">
 	<h2 class="mt0">Популярные треки</h2>
-	<div class="d-flex flex-center flex-column fw-w align-items-start songs">
+	<div class="songs">
 		<div class="song song-mb25">
 			<img class="img-song" src="images/Wild Seed.png" alt="Песня Spanish Steps исполнителя Morten Harket">
 			<div class="name-song">
@@ -216,7 +216,7 @@
 <section class="container">
 	<h2>Похожие исполнители</h2>
 	<div class="similars">
-		<div class="margin-r-b">
+		<div class="margin-r-b container-similars">
 			<a href="#"><img class="album-img" src="images/A-ha.png" alt="Исполнитель A-ha"></a>
 			<p class="artist-name">A-ha</p>
 			<p class="artist-fans">417 086 поклонников</p>

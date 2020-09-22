@@ -122,9 +122,6 @@ li {
 .mb0 {
   margin-bottom: 0; }
 
-.mb10 {
-  margin-bottom: 10px; }
-
 .mb30 {
   margin-bottom: 30px; }
 
@@ -134,7 +131,7 @@ li {
 .mb45 {
   margin-bottom: 45px; }
 
-.mr35 {
+.btn-margin {
   margin-right: 35px; }
 
 .pt100 {
@@ -150,7 +147,7 @@ li {
   font-size: 16px; }
 
 .container {
-  max-width: 1200px;
+  width: 1200px;
   margin: 0 auto; }
 
 .d-flex {
@@ -201,7 +198,7 @@ li {
   max-width: 560px; }
 
 .album-img {
-  width: 250px; }
+  width: 100%; }
 
 .header {
   position: absolute;
@@ -467,6 +464,7 @@ main {
   font-weight: bold; }
 
 .banner-text-motiv {
+  text-align: center;
   font-size: 18px;
   font-weight: bold; }
 
@@ -504,7 +502,7 @@ main {
   background: url(../images/Morten_Harket.png) no-repeat center center; }
 
 .link-svg {
-  width: 20px;
+  width: 22px;
   margin-right: 15px;
   vertical-align: middle; }
 
@@ -521,11 +519,20 @@ main {
   background: #95390C; }
 
 .art-banner {
-  width: 1200px;
   margin: 0 auto 80px;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
-          justify-content: flex-end; }
+          justify-content: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
 
 .footer {
   background: -o-linear-gradient(0.25deg, #5328A1 32.83%, #95390C 81.56%);
@@ -603,17 +610,30 @@ main {
     margin: 5px 0; }
 
 .songs {
-  height: 250px; }
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
 
 .artist {
   font-size: 12px;
   color: #808080; }
 
-.album p {
-  margin: 0 0 10px; }
-
-.album svg {
-  width: 20px; }
+.album {
+  width: 250px; }
+  .album p {
+    margin: 0 0 10px; }
+  .album svg {
+    width: 20px; }
 
 .album a {
   position: relative; }
@@ -639,9 +659,22 @@ main {
 .similars p {
   text-align: center; }
 
+.container-similars {
+  width: 250px; }
+
+@media (max-width: 1280px) {
+  .container {
+    width: 1024px; }
+  .mob-mr-50 {
+    margin-right: 50px; }
+  .song {
+    width: 450px; } }
+
 @media (max-width: 1024px) {
   .container {
     width: 900px; }
+  .mob-mr-50 {
+    margin-right: 0; }
   .mob-order-1 {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
@@ -650,6 +683,10 @@ main {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2; }
+  .mob-order-3 {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3; }
   .sub {
     width: 280px;
     height: 463px; }
@@ -680,8 +717,93 @@ main {
             flex-direction: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center; } }
+            align-items: center; }
+  .mob-order-3 {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2; }
+  .song {
+    width: 400px; } }
 
 @media (max-width: 900px) {
   .container {
-    width: 800px; } }
+    width: 768px; }
+  .song {
+    width: 280px; }
+  .album-name,
+  .artist-name {
+    font-size: 16px; }
+  .album-year {
+    font-size: 14px; }
+  .artist-fans {
+    font-size: 12px; }
+  .album,
+  .container-similars {
+    width: 130px; } }
+
+@media (max-width: 768px) {
+  .container {
+    width: 600px; }
+  .sub-mob-margin {
+    margin-bottom: 50px; }
+    .sub-mob-margin:last-child {
+      margin-bottom: 0; }
+  h1 {
+    font-size: 30px; }
+  .banner-text {
+    font-size: 18px; }
+  .banner-text-motiv {
+    font-size: 12px; }
+  h2 {
+    font-size: 20px; }
+  .advanced-menu {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .advanced-menu-elem {
+    margin: 0; }
+  .songs {
+    height: auto; }
+  .song-mb25:nth-child(3n) {
+    margin-bottom: 25px; } }
+
+@media (max-width: 600px) {
+  .container {
+    width: 280px; }
+  .news-img,
+  .app-img {
+    width: 280px; }
+  .input-in {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1; }
+  .header > div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+  .nav ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+  .nav li {
+    margin-bottom: 10px; }
+  .hr {
+    bottom: 330px; }
+  .footer .nav li {
+    margin-bottom: 20px; }
+  .margin-r-b {
+    margin-right: 0; }
+    .margin-r-b:nth-child(2n+1) {
+      margin-right: 20px; }
+  .btn-artists {
+    width: 280px; }
+  .btn-margin {
+    margin: 0 0 20px; } }

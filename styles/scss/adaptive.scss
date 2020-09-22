@@ -1,12 +1,31 @@
+@media (max-width: 1280px) {
+	.container {
+		width: 1024px;
+	}
+	.mob-mr-50 {
+		margin-right: 50px;
+	}
+	.song {
+		width: 450px;
+	}
+
+}
+
 @media (max-width: 1024px) {
 	.container {
 		width: 900px;
+	}
+	.mob-mr-50 {
+		margin-right: 0;
 	}
 	.mob-order-1 {
 		order: 1;
 	}
 	.mob-order-2 {
 		order: 2;
+	}
+	.mob-order-3 {
+		order: 3;
 	}
 	.sub {
 		width: 280px;
@@ -37,9 +56,113 @@
 		flex-direction: column;
 		align-items: center;
 	}
+	.mob-order-3 {
+		order: 2;
+	}
+	.song {
+		width: 400px;
+	}
 }
 @media (max-width: 900px) {
 	.container {
-		width: 800px;
+		width: 768px;
+	}
+	.song {
+		width: 280px;
+	}
+	.album-name,
+	.artist-name {
+		font-size: 16px;
+	}
+	.album-year	 {
+		font-size: 14px;
+	}
+	.artist-fans {
+		font-size: 12px;
+	}
+	.album,
+	.container-similars {
+		width: 130px;
+	}
+
+}
+@media (max-width: 768px) {
+	.container {
+		width: 600px;
+	}
+	.sub-mob-margin {
+		margin-bottom: 50px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+	h1 {
+		font-size: 30px;
+	}
+	.banner-text {
+		font-size: 18px;
+	}
+	.banner-text-motiv {
+		font-size: 12px;
+	}
+	h2 {
+		font-size: 20px;
+	}
+	.advanced-menu {
+		justify-content: space-between;
+	}
+	.advanced-menu-elem {
+		margin: 0;
+	}
+	.songs {
+		height: auto;
+	}
+	.song-mb25 {
+		&:nth-child(3n){
+			margin-bottom: 25px;
+		}
+	}
+}
+@media (max-width: 600px) {
+	.container {
+		width: 280px;
+	}
+	.news-img,
+	.app-img {
+		width: 280px;
+	}
+	.input-in {
+		flex: 1;
+	}
+	.header > div {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.nav ul {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.nav li {
+		margin-bottom: 10px;
+	}
+	.hr {
+		bottom: 330px;
+	}
+	.footer .nav li {
+		margin-bottom: 20px;
+	}
+	.margin-r-b {
+		margin-right: 0;
+		&:nth-child(2n+1){
+			margin-right: 20px;
+		}
+	}
+	.btn-artists {
+		width: 280px;
+
+	}
+	.btn-margin {
+		margin: 0 0 20px;
+
 	}
 }
