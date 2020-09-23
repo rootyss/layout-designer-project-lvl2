@@ -4,8 +4,13 @@
 	box-sizing: border-box;
 	align-items: center;
 	height: 580px;
-	width: 350px;
 	padding: 25px 24px 50px;
+}
+.sub-width {
+	width: 350px;
+}
+.sub-margin {
+	margin: 25px;
 }
 .sub-name {
 	font-size: 24px;

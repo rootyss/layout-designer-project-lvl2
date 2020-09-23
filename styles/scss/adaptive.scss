@@ -2,12 +2,10 @@
 	.container {
 		width: 1024px;
 	}
-	.mob-mr-50 {
-		margin-right: 50px;
-	}
-	.song {
-		width: 450px;
-	}
+
+	.song-width {
+	width: 450px;
+}
 
 }
 
@@ -15,7 +13,7 @@
 	.container {
 		width: 900px;
 	}
-	.mob-mr-50 {
+	.news-margin {
 		margin-right: 0;
 	}
 	.mob-order-1 {
@@ -28,9 +26,15 @@
 		order: 3;
 	}
 	.sub {
-		width: 280px;
 		height: 463px;
 	}
+	.subs {
+		justify-content: center;
+	}
+	.sub-width {
+	width: 280px;
+	}
+	
 	.sub-name {
 		font-size: 16px;
 	}
@@ -59,17 +63,17 @@
 	.mob-order-3 {
 		order: 2;
 	}
-	.song {
-		width: 400px;
-	}
+	.song-width {
+	width: 400px;
+}
 }
 @media (max-width: 900px) {
 	.container {
 		width: 768px;
 	}
-	.song {
-		width: 280px;
-	}
+	.song-width {
+	width: 280px;
+}
 	.album-name,
 	.artist-name {
 		font-size: 16px;
@@ -80,8 +84,8 @@
 	.artist-fans {
 		font-size: 12px;
 	}
-	.album,
-	.container-similars {
+	.album-width,
+	.similar-width {
 		width: 130px;
 	}
 
@@ -90,7 +94,7 @@
 	.container {
 		width: 600px;
 	}
-	.sub-mob-margin {
+	.sub-margin {
 		margin-bottom: 50px;
 		&:last-child {
 			margin-bottom: 0;
@@ -127,6 +131,9 @@
 	.container {
 		width: 280px;
 	}
+	.sub-margin {
+		margin: 25px 0;
+	}
 	.news-img,
 	.app-img {
 		width: 280px;
@@ -134,7 +141,7 @@
 	.input-in {
 		flex: 1;
 	}
-	.header > div {
+	.header {
 		flex-direction: column;
 		align-items: flex-start;
 	}

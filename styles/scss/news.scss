@@ -1,8 +1,9 @@
 .news {
-	width: 100%;
 	display: flex;
-	justify-content: space-between;
 }
+	.news-margin {
+		margin-right: 50px;
+	}
 .news h3 {
 	font-size: 30px;
 	font-weight: 300;

@@ -1,8 +1,10 @@
 .song {
-	width: 510px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+.song-width {
+	width: 510px;
 }
 .song-mb25 {
 	margin-bottom: 25px;

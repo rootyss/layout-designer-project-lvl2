@@ -2,14 +2,13 @@
 	flex: 4 1 auto;
 	
 }
-nav ul {
+.nav ul {
 	display: flex;
-	justify-content: flex-start;
 	align-items: center;
 	flex-wrap: wrap;
 	line-height: 1;
 }
-nav li {
+.nav li {
 	list-style-type: none;
 	margin-right: 36px;
 	&:last-child {
@@ -22,3 +21,8 @@ nav li {
 	color: $menu-text-color-active;
 	}
 }
+.nav a {
+		font-size: 11px;
+		text-transform: uppercase;
+		font-weight: bold;
+	}

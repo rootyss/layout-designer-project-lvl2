@@ -1,19 +1,19 @@
-.header {
+.header-absolute {
 	position: absolute;
-	flex-wrap: wrap;
 	top: 14px;
 	left: 0; right: 0;
-	a {
-		font-size: 11px;
-		text-transform: uppercase;
-		font-weight: bold;
-	}
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
 }
 .logo-img {
 	width: 17px;
 	margin-right: 4px;
 }
-.logo-color {
+.logo-text-color {
 	color: $logo-text-color;
 }
 .search input {
@@ -31,5 +31,13 @@
 	flex: 0 1 278px;
 }
 .logo {
-	flex: 1 1 auto;
+	display: flex;
+	align-items: center;
+
+	flex: 1 1 auto;	
+	a {
+		font-size: 11px;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
 }

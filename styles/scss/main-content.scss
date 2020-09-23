@@ -5,9 +5,10 @@ main {
 .subs {
 	width: 100%;
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
 	flex-wrap: wrap;
-	margin-bottom: 50px;
+	margin-right: -25px;
+	margin-left: -25px;
 }
 .text-info-subs {
 	text-align: center;
