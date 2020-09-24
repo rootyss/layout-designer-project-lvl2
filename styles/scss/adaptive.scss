@@ -2,10 +2,15 @@
 	.container {
 		width: 1024px;
 	}
-
+	h3 {
+		margin-top: 0;
+	}
 	.song-width {
 	width: 450px;
 }
+	.mob-justify-center {
+		justify-content: center;
+	}
 
 }
 
@@ -13,7 +18,8 @@
 	.container {
 		width: 900px;
 	}
-	.news-margin {
+
+	.mob-mr0 {
 		margin-right: 0;
 	}
 	.mob-order-1 {
@@ -25,14 +31,13 @@
 	.mob-order-3 {
 		order: 3;
 	}
-	.subs {
-		justify-content: center;
+	.mob-flex-column {
+		flex-direction: column;
 	}
 	.sub-wrapper {
 	width: 280px;
 	height: 463px;
 	}
-	
 	.sub-name {
 		font-size: 16px;
 	}
@@ -53,10 +58,6 @@
 	}
 	.mob-mt40 {
 		margin-top: 40px;
-	}
-	.info-app {
-		flex-direction: column;
-		align-items: center;
 	}
 	.mob-order-3 {
 		order: 2;
@@ -92,6 +93,7 @@
 	.container {
 		width: 600px;
 	}
+
 	h1 {
 		font-size: 30px;
 	}
@@ -123,11 +125,19 @@
 	.container {
 		width: 280px;
 	}
+		.mob768-mr0 {
+		margin-right: 0;
+	}
+			.mob-mb35 {
+		margin-bottom: 35px;
+	}
+	.sub-wrapper {
+		padding: 25px 0;
+	}
 	.art-banner {
 		margin-top: 200px;
 	}
-	.news-img,
-	.app-img {
+	.mob-w280 {
 		width: 280px;
 	}
 	.input-in {

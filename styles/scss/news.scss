@@ -1,23 +1,6 @@
 .news {
 	display: flex;
 }
-	.news-margin {
-		margin-right: 50px;
-	}
-.news h3 {
-	font-size: 30px;
-	font-weight: 300;
-}
-.news p{
-	margin: 10px 0;
-}
-.news-descr {
-	display: block;
-	margin: 5px 0;
-}
-.news-img {
-	width: 560px;
-}
 .color-author {
 	color: $color-author;
 }
@@ -26,13 +9,6 @@
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-	span {
-		font-size: 12px;
-		text-transform: uppercase;
-	}
-	img {
-		margin-right: 20px;
-	}
 }
 .vert-bord {
 	height: 10px;

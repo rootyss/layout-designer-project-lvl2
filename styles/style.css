@@ -95,6 +95,10 @@ h2 {
   text-transform: uppercase;
   margin: 75px 0 50px 0; }
 
+h3 {
+  font-size: 30px;
+  font-weight: 300; }
+
 ul {
   padding-left: 0; }
 
@@ -131,8 +135,17 @@ li {
 .mb45 {
   margin-bottom: 45px; }
 
-.btn-margin {
+.mr35 {
   margin-right: 35px; }
+
+.mr20 {
+  margin-right: 20px; }
+
+.mr50 {
+  margin-right: 50px; }
+
+.mb70 {
+  margin-bottom: 70px; }
 
 .pt100 {
   padding-top: 100px; }
@@ -145,6 +158,12 @@ li {
 
 .h-100 {
   height: 100%; }
+
+.h250 {
+  height: 250px; }
+
+.fz12 {
+  font-size: 12px; }
 
 .fz16 {
   font-size: 16px; }
@@ -166,7 +185,9 @@ li {
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
 
 .flex-row {
   -webkit-box-orient: horizontal;
@@ -180,6 +201,12 @@ li {
 .text-gray {
   color: #555555; }
 
+.text-up {
+  text-transform: uppercase; }
+
+.text-center {
+  text-align: center; }
+
 .justify-content-between {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -189,10 +216,6 @@ li {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start; }
-
-.fw-w {
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
 
 .align-items-start {
   -webkit-box-align: start;
@@ -311,21 +334,9 @@ main {
   background: #08020D;
   padding-bottom: 100px; }
 
-.subs {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+.mx-25 {
   margin-right: -25px;
   margin-left: -25px; }
-
-.text-info-subs {
-  text-align: center; }
 
 .btn-dl {
   background: #FF4157;
@@ -353,15 +364,6 @@ main {
 
 .news-margin {
   margin-bottom: 70px; }
-
-.info-app {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 100%; }
 
 .sub-body {
   display: -webkit-box;
@@ -438,23 +440,6 @@ main {
   display: -ms-flexbox;
   display: flex; }
 
-.news-margin {
-  margin-right: 50px; }
-
-.news h3 {
-  font-size: 30px;
-  font-weight: 300; }
-
-.news p {
-  margin: 10px 0; }
-
-.news-descr {
-  display: block;
-  margin: 5px 0; }
-
-.news-img {
-  width: 560px; }
-
 .color-author {
   color: #F89202; }
 
@@ -469,11 +454,6 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-  .author span {
-    font-size: 12px;
-    text-transform: uppercase; }
-  .author img {
-    margin-right: 20px; }
 
 .vert-bord {
   height: 10px;
@@ -701,13 +681,19 @@ main {
 @media (max-width: 1280px) {
   .container {
     width: 1024px; }
+  h3 {
+    margin-top: 0; }
   .song-width {
-    width: 450px; } }
+    width: 450px; }
+  .mob-justify-center {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; } }
 
 @media (max-width: 1024px) {
   .container {
     width: 900px; }
-  .news-margin {
+  .mob-mr0 {
     margin-right: 0; }
   .mob-order-1 {
     -webkit-box-ordinal-group: 2;
@@ -721,10 +707,11 @@ main {
     -webkit-box-ordinal-group: 4;
         -ms-flex-order: 3;
             order: 3; }
-  .subs {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
+  .mob-flex-column {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
   .sub-wrapper {
     width: 280px;
     height: 463px; }
@@ -748,14 +735,6 @@ main {
     margin-bottom: 0; }
   .mob-mt40 {
     margin-top: 40px; }
-  .info-app {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
   .mob-order-3 {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
@@ -804,10 +783,15 @@ main {
 @media (max-width: 600px) {
   .container {
     width: 280px; }
+  .mob768-mr0 {
+    margin-right: 0; }
+  .mob-mb35 {
+    margin-bottom: 35px; }
+  .sub-wrapper {
+    padding: 25px 0; }
   .art-banner {
     margin-top: 200px; }
-  .news-img,
-  .app-img {
+  .mob-w280 {
     width: 280px; }
   .input-in {
     -webkit-box-flex: 1;
