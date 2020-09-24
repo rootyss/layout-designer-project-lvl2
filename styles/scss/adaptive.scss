@@ -25,14 +25,12 @@
 	.mob-order-3 {
 		order: 3;
 	}
-	.sub {
-		height: 463px;
-	}
 	.subs {
 		justify-content: center;
 	}
-	.sub-width {
+	.sub-wrapper {
 	width: 280px;
+	height: 463px;
 	}
 	
 	.sub-name {
@@ -94,12 +92,6 @@
 	.container {
 		width: 600px;
 	}
-	.sub-margin {
-		margin-bottom: 50px;
-		&:last-child {
-			margin-bottom: 0;
-		}
-	}
 	h1 {
 		font-size: 30px;
 	}
@@ -131,8 +123,8 @@
 	.container {
 		width: 280px;
 	}
-	.sub-margin {
-		margin: 25px 0;
+	.art-banner {
+		margin-top: 200px;
 	}
 	.news-img,
 	.app-img {

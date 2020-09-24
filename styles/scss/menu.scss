@@ -21,8 +21,13 @@
 	color: $menu-text-color-active;
 	}
 }
-.nav a {
+.nav-link {
 		font-size: 11px;
 		text-transform: uppercase;
 		font-weight: bold;
 	}
+	.nav-link-footer {
+	font-size: 16px;
+	text-transform: none;
+	font-weight: 300;
+}

@@ -1,16 +1,15 @@
-.sub {
+.sub-body {
 	display: flex;
 	flex-direction: column;
 	box-sizing: border-box;
 	align-items: center;
-	height: 580px;
 	padding: 25px 24px 50px;
+	flex: 1;
 }
-.sub-width {
+.sub-wrapper {
 	width: 350px;
-}
-.sub-margin {
-	margin: 25px;
+	height: 580px;
+	padding: 25px;
 }
 .sub-name {
 	font-size: 24px;

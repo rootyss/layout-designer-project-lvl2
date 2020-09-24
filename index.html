@@ -14,20 +14,20 @@
 			</div>
 			<nav class="nav mob-order-3">
 			<ul>
-				<li><a class="header-menu-color" href="#">Главная</a></li>
-				<li><a class="header-menu-color" href="catalog.html">Каталог</a></li>
-				<li><a class="header-menu-color" href="#">Исполнители</a></li>
-				<li><a class="header-menu-color" href="#">Контакты</a></li>
+				<li><a class="header-menu-color nav-link" href="#">Главная</a></li>
+				<li><a class="header-menu-color nav-link" href="catalog.html">Каталог</a></li>
+				<li><a class="header-menu-color nav-link" href="#">Исполнители</a></li>
+				<li><a class="header-menu-color nav-link" href="#">Контакты</a></li>
 			</ul>
 		</nav>
 		<div class="search mob-order-2"><input type="search" placeholder="поиск..."></div>
 	</header>
 <section class="main-banner">
-	<div class="container d-flex  flex-center flex-column">
+	<div class="container d-flex">
 		<h1>онлайн музыка где угодно</h1>
 		<p class="banner-text mt0 mb45">без ограничений</p>
 		<p class="banner-text-motiv mb40 mt0">Получите доступ всего за несколько шагов. Заполните форму и откройте мир музыки</p>
-		<form action="#" class="d-flex fw-w justify-content-between">
+		<form action="#" class="d-flex flex-row fw-w justify-content-between">
 			<input class="input-in mb30" type="text" placeholder="Имя">
 			<input class="input-in mb30" type="email" placeholder="Email">
 			<input class="btn main-btn w100 p-y-20" type="submit" value="Получить доступ">
@@ -37,32 +37,39 @@
 
 <main>
 	<div class="container">
-	<section class="d-flex flex-column flex-center">
+	<section class="d-flex">
 		<h2>Формы подписки</h2>
 		<div class="subs mb45">
-			<div class="sub sub-bg-free sub-margin sub-width">
+
+		<div class="sub-wrapper">
+			<div class="sub-body sub-bg-free h-100">
 				<p class="sub-name">бесплатная</p>
 				<div class="sub-price"><span class="sub-int">0</span><span class="sub-curr">руб.</span></div>
 				<a class="btn sub-btn" href="#">Оформить</a>
 				<p class="sub-info-text">Оплата в месяц. Бесплатный тариф предоставляет доступ ко всей коллекции музыки. Присутствует реклама</p>
 			</div>
-			<div class="sub sub-bg-standart sub-margin sub-width">
+		</div>
+		<div class="sub-wrapper">
+			<div class="sub-body sub-bg-standart h-100">
 				<p class="sub-name">Стандартная</p>
 				<div class="sub-price"><span class="sub-int">250</span><span class="sub-curr">руб.</span></div>
 				<a class="btn sub-btn" href="#">Оформить</a>
 				<p class="sub-info-text">Оплата в месяц. Стандартный тариф предоставляет доступ ко всей коллекции музыки в среднем качестве</p>
 			</div>
-			<div class="sub sub-bg-preium sub-margin sub-width">
+		</div>
+		<div class="sub-wrapper">
+			<div class="sub-body sub-bg-preium h-100">
 				<p class="sub-name">Премиум</p>
 				<div class="sub-price"><span class="sub-int">500</span><span class="sub-curr">руб.</span></div>
 				<a class="btn sub-btn" href="#">Оформить</a>
 				<p class="sub-info-text">Оплата в месяц. Премиум тариф предоставляет доступ ко всей коллекции музыки в высоком качестве</p>
 			</div>
 		</div>
+		</div>
 		<p class="text-info-subs">На всех тарифах возможно прослушивание музыки с мобильных устройств. На премиум тарифе вы можете скачать все композиции на ваше устройство и слушать музыку без подключения к интернету</p>
 	</section>
 	
-	<section class="d-flex flex-column flex-center">
+	<section class="d-flex">
 		<h2>Последние новости</h2>
 	<div class="news news-margin">
 		<div class="news-margin">
@@ -101,10 +108,10 @@
 		</div>
 </div>
 	</section>
-	<section class="d-flex flex-column flex-center">
+	<section class="d-flex">
 		<h2>Мобильное приложение</h2>
 		<div class="info-app">
-			<div class="d-flex flex-column flex-center align-items-start mob-order-2">
+			<div class="d-flex align-items-start mob-order-2">
 			<p class="fz16 text-dark mw560">Воспользуйтесь нашим мобильным приложением. Оно позволит слушать музыку с любого устройства на базе операционных систем Androind и iOS</p>
 			<p class="fz16 text-dark mw560  mb30">С тарифом «Премиум» приложение позволяет скачивать все композиции из нашей коллекции. Вы можете слушать музыку даже без интернета.</p>
 			<a class="btn btn-dl mob-btn" href="#">Скачать</a>
@@ -121,7 +128,7 @@
 
 
 <footer class="footer">
-	<div class="container d-flex flex-column">
+	<div class="container d-flex align-items-start">
 		<div class="advanced-menu">
 			<div class="advanced-menu-elem">
 				<h4>О нас</h4>
@@ -151,7 +158,7 @@
 			</div>
 			<div class="socials advanced-menu-elem">
 				<h4>Подписывайтесь</h4>
-				<ul class="d-flex">
+				<ul class="d-flex flex-row">
 				<li><a href="#"><img src="images/Google+.png" alt="Google+"></a></li>
 				<li><a href="#"><img src="images/Twitter.png" alt="Twitter"></a></li>
 				<li><a href="#"><img src="images/Facebook.png" alt="Facebook"></a></li>
@@ -163,11 +170,11 @@
 		<div class="p-y-50">
 			<nav class="nav">
 			<ul>
-				<li><a class="footer-menu-color" href="#">Магазин</a></li>
-				<li><a class="footer-menu-color" href="#">Обслуживание</a></li>
-				<li><a class="footer-menu-color" href="#">Блог</a></li>
-				<li><a class="footer-menu-color" href="#">Поддержка</a></li>
-				<li><a class="footer-menu-color" href="#">Контакты</a></li>
+				<li><a class="footer-menu-color nav-link nav-link-footer" href="#">Магазин</a></li>
+				<li><a class="footer-menu-color nav-link nav-link-footer" href="#">Обслуживание</a></li>
+				<li><a class="footer-menu-color nav-link nav-link-footer" href="#">Блог</a></li>
+				<li><a class="footer-menu-color nav-link nav-link-footer" href="#">Поддержка</a></li>
+				<li><a class="footer-menu-color nav-link nav-link-footer" href="#">Контакты</a></li>
 			</ul>
 		</nav>
 		</div>
