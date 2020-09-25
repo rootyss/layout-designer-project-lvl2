@@ -5,9 +5,6 @@
 	h3 {
 		margin-top: 0;
 	}
-	.song-width {
-	width: 450px;
-}
 	.mob-justify-center {
 		justify-content: center;
 	}
@@ -62,30 +59,25 @@
 	.mob-order-3 {
 		order: 2;
 	}
-	.song-width {
-	width: 400px;
-}
 }
 @media (max-width: 900px) {
 	.container {
 		width: 768px;
 	}
-	.song-width {
-	width: 280px;
-}
-	.album-name,
-	.artist-name {
+	.mob-fz16 {
 		font-size: 16px;
 	}
-	.album-year	 {
+	.mob-fz14	 {
 		font-size: 14px;
 	}
-	.artist-fans {
+	.mob-fz12 {
 		font-size: 12px;
 	}
-	.album-width,
-	.similar-width {
-		width: 130px;
+	.mob-w140 {
+		width: 140px;
+	}
+	.mob-p-25-10 {
+		padding: 25px 10px;
 	}
 
 }
@@ -112,27 +104,28 @@
 	.advanced-menu-elem {
 		margin: 0;
 	}
-	.songs {
-		height: auto;
-	}
-	.song-mb25 {
-		&:nth-child(3n){
-			margin-bottom: 25px;
-		}
-	}
 }
 @media (max-width: 600px) {
 	.container {
 		width: 280px;
 	}
-		.mob768-mr0 {
+	.mob768-mr0 {
 		margin-right: 0;
 	}
-			.mob-mb35 {
+	.mob-justify-content-center {
+	justify-content: center;
+	}
+	.mob-m0 {
+		margin: 0;
+	}
+	.mob-mb35 {
 		margin-bottom: 35px;
 	}
-	.sub-wrapper {
+	.mob-p-25-0 {
 		padding: 25px 0;
+	}
+	.mob-p-12-0 {
+		padding: 12px 0;
 	}
 	.art-banner {
 		margin-top: 200px;

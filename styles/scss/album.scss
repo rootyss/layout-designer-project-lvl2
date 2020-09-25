@@ -1,23 +1,6 @@
-.album {
-	 p {
-		margin: 0 0 10px;
-	}
-	 svg {
-		width: 20px;
-	}
-}
-
-.album a {
-	position: relative;
-}
-.album svg {
+.album-svg {
+	width: 20px;
 	position: absolute;
 	left: 15px;
 	bottom: 13px;
-}
-.album-name {
-	font-size: 20px;
-}
-.album-year {
-	font-size: 16px;
 }

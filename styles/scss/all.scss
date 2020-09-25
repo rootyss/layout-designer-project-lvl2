@@ -41,6 +41,10 @@ li {
 	border-radius: 5px;
 	color: $color-text-light;
 }
+.mx-25 {
+	margin-right: -25px;
+	margin-left: -25px;
+}
 .p-y-20 {
 	padding: 20px 0;
 }
@@ -52,6 +56,9 @@ li {
 }
 .mb0 {
 	margin-bottom: 0;
+}
+.mb-auto {
+	margin-bottom: auto;
 }
 .mb30 {
 	margin-bottom: 30px;
@@ -74,26 +81,44 @@ li {
 .mb70 {
 	margin-bottom: 70px;
 }
+.m-y20-50 {
+	margin: 20px 0 50px;
+}
 .pt100 {
 	padding-top: 100px;
-}
-.margin-r-b {
-	margin: 0 50px 40px 0;
 }
 .w100 {
 	width: 100%;
 }
+.w40 {
+	width: 40%;
+}
+.w250 {
+	width: 250px;
+}
+.p25 {
+	padding: 25px;
+}
 .h-100 {
 	height: 100%;
 }
-.h250 {
-	height: 250px;
+.p12-25 {
+	padding: 12px 25px;
+}
+.fz11 {
+	font-size: 11px;
 }
 .fz12 {
 	font-size: 12px;
 }
 .fz16 {
 	font-size: 16px;
+}
+.fz20 {
+	font-size: 20px;
+}
+.fz24 {
+	font-size: 24px;
 }
 .container {
 	width: 1200px;
@@ -108,6 +133,9 @@ li {
 }
 .flex-row {
 	flex-direction: row;
+}
+.bx-box {
+	box-sizing: border-box;
 }
 .text-dark {
 	color: $color-text-dark;
@@ -130,10 +158,10 @@ li {
 .align-items-start {
 	align-items: flex-start;
 }
+.pos-rel {
+	position: relative;
+}
 .mw560 {
 	max-width: 560px;
 }
-.similars-img,
-.album-img {
-	width: 100%;
-}
+
