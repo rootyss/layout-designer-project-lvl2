@@ -4,5 +4,4 @@ layout-designer-project-lvl2
 https://rootyss.github.io/ 
 
 
-Пока не обновился:
 http://stingy-plot.surge.sh/

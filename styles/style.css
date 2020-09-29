@@ -711,12 +711,12 @@ main {
 @media (max-width: 768px) {
   .container {
     width: 600px; }
+  .mb-sub {
+    margin-bottom: 34%; }
   .col {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 50%;
             flex: 0 0 50%; }
-  .mb-sub {
-    margin-bottom: 35%; }
   h1 {
     font-size: 30px; }
   .banner-text {
@@ -790,4 +790,13 @@ main {
   .btn-artists {
     width: 280px; }
   .btn-margin {
-    margin: 0 0 20px; } }
+    margin: 0 0 20px; }
+  .mob-m0 {
+    margin: 0; }
+  .mb-sub {
+    margin-bottom: 37%; }
+  .mob-px0 {
+    padding: 20px 0; }
+  .mob-mx20 {
+    margin-right: 20px;
+    margin-left: 20px; } }
