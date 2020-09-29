@@ -6,21 +6,24 @@
 	padding: 25px 24px 50px;
 	flex: 1;
 }
-.sub-wrapper {
-	width: 350px;
-	height: 580px;
+			.col {
+	flex: 0 0 33%;
+}
+.mb-sub{
+	margin-bottom: 70%;
 }
 
 .sub-bg-free {
-	background: url(../images/subscribe_1.png);
+	background: url(../images/subscribe_1.png) no-repeat;
 	background-size: cover;
+
 }
 .sub-bg-standart {
-	background: url(../images/subscribe_2.png);
+	background: url(../images/subscribe_2.png) no-repeat;
 	background-size: cover;
 }
 .sub-bg-preium {
-	background: url(../images/subscribe_3.png);
+	background: url(../images/subscribe_3.png) no-repeat;
 	background-size: cover;
 }
 .sub-btn {
